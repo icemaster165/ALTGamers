@@ -1,0 +1,810 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALTGamers</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="altgamers.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-dark bg-navbar navbar-expand-md bg- shadow-sm py-3 z-1"
+    >
+      <div class="container">
+        <!-- Mobile Brand -->
+        <a class="navbar-brand fw-bold d-md-none fs-3" href="#">
+          <span class="text-warning fw-bolder">ALT</span
+          ><span class="text-primary fw-bold fst-italic">Gamers</span>
+        </a>
+
+        <!-- Toggler -->
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCentered"
+          aria-controls="navbarCentered"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Content -->
+        <div
+          class="collapse navbar-collapse justify-content-between align-items-center"
+          id="navbarCentered"
+        >
+          <!-- Left Links -->
+          <ul class="navbar-nav mb-2 mb-md-0 fs-5">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="servicesDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Games
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-dark shadow-sm border-0 fs-5"
+              >
+                <li><a class="dropdown-item" href="#">Valorant</a></li>
+                <li><a class="dropdown-item" href="#">Minecraft</a></li>
+                <li><a class="dropdown-item" href="#">Fortnite</a></li>
+                <li><a class="dropdown-item" href="#">Overwatch 2</a></li>
+                <li><a class="dropdown-item" href="#">GTA V</a></li>
+                <li><a class="dropdown-item disabled" href="#">GTA VI</a></li>
+                <li><a class="dropdown-item" href="#">Rocket League</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Clash Royale (Dead Game)</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Bloons TD 6</a></li>
+                <li class="dropdown-divider">t</li>
+                <li>
+                  <a class="dropdown-item disabled" href="#"
+                    >More Coming Soon...</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <!-- Desktop Center Logo -->
+          <a
+            class="navbar-brand fs-3 fw-bold mx-auto d-none d-md-block"
+            href="#"
+          >
+            <span class="text-warning fw-bolder">ALT</span
+            ><span class="text-primary fw-bold fst-italic">Gamers</span>
+          </a>
+
+          <!-- Right Side -->
+          <div
+            class="d-flex align-items-md-center flex-column flex-md-row gap-2 mt-3 mt-md-0"
+          >
+            <a class="btn btn-outline-warning" href="#">Contact</a>
+            <a href="#" class="btn btn-danger px-4">Product Keys</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <!-- HERO -->
+      <section
+        class="container-fluid hero p-0 overflow-hidden position-relative"
+      >
+        <div
+          class="position-absolute top-0 start-50 translate-middle-x w-100 h-100 z-0 wavy"
+        >
+          <img
+            class="w-100 h-100 object-fit-cover hero-bg-image"
+            src="Images/professional-esports-gamer-back-side-view-rejoices-victory-generative-ai.jpg"
+            alt="Japanese temple"
+          />
+        </div>
+        <div
+          class="container-fluid hero-content d-flex flex-column align-items-center text-center text-pretty text-white w-100 h-100 position-relative p-0"
+        >
+          <div class="container px-3">
+            <h5 class="text-uppercase mb-3 mt-5 text-shadow">
+              for the ones who play to dominate
+            </h5>
+
+            <h1 class="display-4 fw-bold mb-4 text-capitalize text-shadow">
+              play smarter, climb faster.
+            </h1>
+
+            <p class="lead mb-4 text-balance text-shadow">
+              Strategy, competition, and culture redefined. This is where
+              serious players level up and stand out. Do you have what it takes?
+            </p>
+            <div>
+              <a href="#" class="btn btn-primary-custom me-2 text-uppercase"
+                >Become a pro</a
+              >
+            </div>
+            <h6 class="text-uppercase my-3 mb-2 text-warning text-shadow">
+              No paywalls. Just pure gaming.
+            </h6>
+          </div>
+          <div
+            class="container-fluid hero-image w-100 mx-0 p-0 overflow-hidden mt-5"
+          >
+            <img
+              src="Images/scenario-inspired-by-videogame.jpg"
+              class="w-100 h-100 object-fit-cover"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES ONE -->
+      <section
+        class="features-gaming-final py-5 text-white position-relative my-2 my-md-5"
+      >
+        <!-- Background overlay -->
+        <div class="gaming-bg-final"></div>
+
+        <div class="container-fluid px-3 px-md-5 position-relative">
+          <div class="text-center mb-5">
+            <h2 class="fw-bold neon-title-final">Elite Gaming Features</h2>
+            <p class="text-light">
+              Precision, speed, and style — built for competitive players who
+              demand performance.
+            </p>
+          </div>
+
+          <div class="row g-4 d-flex align-items-stretch">
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+              <div
+                class="gaming-card-final p-4 d-flex flex-column w-100 h-100 cardReveal"
+              >
+                <div class="fs-2 mb-3 neon-icon-final">⚡</div>
+                <h5 class="fw-bold neon-text-final mb-2">Ultra-Low Latency</h5>
+                <p class="text-white-50 mb-0 flex-grow-1">
+                  Experience near-instantaneous reactions with ultra-low latency
+                  that keeps you ahead of every opponent. Say goodbye to lag
+                  spikes, enjoy real-time feedback, and dominate your matches
+                  with a competitive edge. Every move, every shot, every combo —
+                  executed exactly when you intend.
+                </p>
+                <button class="btn btn-features mt-3">Learn More</button>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+              <div
+                class="gaming-card-final p-4 d-flex flex-column w-100 h-100 cardReveal"
+              >
+                <div class="fs-2 mb-3 neon-icon-final">🎮</div>
+                <h5 class="fw-bold neon-text-final mb-2">
+                  Immersive Visual Engine
+                </h5>
+                <p class="text-white-50 mb-0 flex-grow-1">
+                  Dive into a world of vibrant visuals and razor-sharp detail.
+                  Our immersive visual engine enhances contrast, highlights
+                  critical in-game elements, and ensures you never miss a beat.
+                  From dynamic shadows to particle effects, experience a
+                  visually stunning environment that keeps you fully aware and
+                  fully immersed.
+                </p>
+                <button class="btn btn-features mt-3">Learn More</button>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+              <div
+                class="gaming-card-final p-4 d-flex flex-column w-100 h-100 cardReveal"
+              >
+                <div class="fs-2 mb-3 neon-icon-final">📊</div>
+                <h5 class="fw-bold neon-text-final mb-2">
+                  Competitive Analytics
+                </h5>
+                <p class="text-white-50 mb-0 flex-grow-1">
+                  Gain a true competitive advantage with advanced analytics
+                  tools. Monitor your gameplay stats, analyze past matches, and
+                  uncover hidden patterns in your strategy. With actionable
+                  insights at your fingertips, you can fine-tune every skill,
+                  outsmart your opponents, and climb the leaderboards faster
+                  than ever.
+                </p>
+                <button class="btn btn-features mt-3">Learn More</button>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+              <div
+                class="gaming-card-final p-4 d-flex flex-column w-100 h-100 cardReveal"
+              >
+                <div class="fs-2 mb-3 neon-icon-final">🔊</div>
+                <h5 class="fw-bold neon-text-final mb-2">Adaptive Audio</h5>
+                <p class="text-white-50 mb-0 flex-grow-1">
+                  Hear every footstep, every reload, and every environmental cue
+                  with precision 3D audio. Our adaptive sound engine adjusts to
+                  in-game conditions so you can react instantly and outplay
+                  opponents using audio awareness.
+                </p>
+                <button class="btn btn-features mt-3">Learn More</button>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+              <div
+                class="gaming-card-final p-4 d-flex flex-column w-100 h-100 cardReveal"
+              >
+                <div class="fs-2 mb-3 neon-icon-final">🛠️</div>
+                <h5 class="fw-bold neon-text-final mb-2">Customizable HUD</h5>
+                <p class="text-white-50 mb-0 flex-grow-1">
+                  Tailor your interface to suit your playstyle. Resize,
+                  reposition, and personalize all HUD elements so the
+                  information you need is always in the right place — keeping
+                  you in total control during high-stakes gameplay.
+                </p>
+                <button class="btn btn-features mt-3">Learn More</button>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+              <div
+                class="gaming-card-final p-4 d-flex flex-column w-100 h-100 cardReveal"
+              >
+                <div class="fs-2 mb-3 neon-icon-final">🔗</div>
+                <h5 class="fw-bold neon-text-final mb-2">
+                  Cross-Platform Sync
+                </h5>
+                <p class="text-white-50 mb-0 flex-grow-1">
+                  Connect with friends and rivals across platforms effortlessly.
+                  Your profile, settings, and achievements stay synced, so you
+                  can jump into competitive matches anytime, anywhere, without
+                  missing a beat.
+                </p>
+                <button class="btn btn-features mt-3">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES TWO -->
+      <section class="features-luxury py-3 py-md-5 text-white my-2 my-md-5">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="fw-bold luxury-title">
+              Built for Legends, Not Spectators
+            </h2>
+            <p class="text-light">
+              More than gameplay — this is your command center.
+            </p>
+          </div>
+
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+              <img
+                src="Images/portrait-woman-competing-olympic-games-championship.jpg"
+                class="img-fluid rounded luxury-image-shadow h-100 imageReveal"
+                alt=""
+              />
+            </div>
+
+            <div class="col-lg-6 autoShowLeft">
+              <div class="luxury-feature mb-4">
+                <h5 class="fw-bold">Precision Targeting System</h5>
+                <p class="text-white-50 mb-0">
+                  Lock on with unmatched accuracy using advanced aiming
+                  mechanics designed for competitive sniping and tactical play.
+                  Every shot counts — make yours legendary.
+                </p>
+              </div>
+
+              <div class="luxury-feature mb-4">
+                <h5 class="fw-bold">Adaptive Cold-Weather Gameplay</h5>
+                <p class="text-white-50 mb-0">
+                  Experience realistic environmental effects like snow, wind,
+                  and visibility challenges that test your strategy and reflexes
+                  in harsh, wintry conditions.
+                </p>
+              </div>
+
+              <div class="luxury-feature">
+                <h5 class="fw-bold">Tactical Stealth Mode</h5>
+                <p class="text-white-50 mb-0">
+                  Utilize silent movement and camouflage features to outsmart
+                  opponents in close-quarters and long-range combat scenarios.
+                  Stay unseen, strike first.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="table-group-divider py-2 my-3 my-md-5"></div>
+          <div class="row g-5 align-items-center flex-lg-row-reverse">
+            <div class="col-lg-6">
+              <img
+                src="Images/futuristic-casino-architecture.jpg"
+                class="img-fluid rounded luxury-image-shadow h-100 imageReveal"
+                alt=""
+              />
+            </div>
+
+            <div class="col-lg-6 autoShowRight">
+              <div class="luxury-feature mb-4">
+                <h5 class="fw-bold">Next-Gen Gaming Lounge</h5>
+                <p class="text-white-50 mb-0">
+                  Step into a state-of-the-art arena designed for immersive
+                  gameplay and social interaction. Experience a seamless blend
+                  of comfort, style, and cutting-edge technology that elevates
+                  your gaming sessions to legendary status.
+                </p>
+              </div>
+
+              <div class="luxury-feature mb-4">
+                <h5 class="fw-bold">Dynamic Lighting & Ambiance</h5>
+                <p class="text-white-50 mb-0">
+                  Our environment adapts with vibrant neon lighting and dynamic
+                  effects, creating a visually stunning atmosphere that keeps
+                  players energized and fully engaged throughout every match.
+                </p>
+              </div>
+
+              <div class="luxury-feature mb-4">
+                <h5 class="fw-bold">Ultra-Fast Connectivity</h5>
+                <p class="text-white-50 mb-0">
+                  Stay connected with lightning-speed internet and optimized
+                  network infrastructure. Say goodbye to lag and hello to
+                  uninterrupted, competitive gameplay whether you're in solo or
+                  team mode.
+                </p>
+              </div>
+              <div class="luxury-feature mb-4">
+                <h5 class="fw-bold">Exclusive VIP Access</h5>
+                <p class="text-white-50 mb-0">
+                  Unlock premium perks with VIP memberships, including private
+                  rooms, early event access, and personalized support designed
+                  to enhance your competitive edge and community presence.
+                </p>
+              </div>
+              <div class="luxury-feature mb-4">
+                <h5 class="fw-bold">Integrated Social Hub</h5>
+                <p class="text-white-50 mb-0">
+                  Connect effortlessly with friends, rivals, and teammates
+                  through our integrated social platform. Coordinate matches,
+                  share highlights, and join exclusive tournaments in a
+                  community-driven gaming ecosystem.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="table-group-divider py-2 my-3 my-md-5"></div>
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+              <img
+                src="Images/dark-style-ninja-naruto.jpg"
+                class="img-fluid rounded luxury-image-shadow h-100 imageReveal"
+                alt=""
+              />
+            </div>
+
+            <div class="col-lg-6 autoShowLeft">
+              <div class="luxury-feature mb-4">
+                <h5 class="fw-bold">Brutal Melee Combat System</h5>
+                <p class="text-white-50 mb-0">
+                  Engage in fast-paced, visceral fights with fluid combos and
+                  devastating special moves. Master timing and precision to
+                  overpower your opponents in every clash.
+                </p>
+              </div>
+
+              <div class="luxury-feature mb-4">
+                <h5 class="fw-bold">Dynamic Environmental Effects</h5>
+                <p class="text-white-50 mb-0">
+                  Feel the heat of battle with real-time fire, smoke, and
+                  particle effects that amplify the intensity and immersion of
+                  each fight.
+                </p>
+              </div>
+
+              <div class="luxury-feature mb-4">
+                <h5 class="fw-bold">Customizable Fighter Builds</h5>
+                <p class="text-white-50 mb-0">
+                  Tailor your combat style with a range of armor, weapons, and
+                  skills to create a unique warrior that suits your preferred
+                  tactics.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="table-group-divider py-2 my-3 my-md-5"></div>
+          <div class="row g-5 align-items-center flex-lg-row-reverse">
+            <div class="col-lg-6">
+              <img
+                src="Images/3d-view-powerful-weapon.jpg"
+                class="img-fluid rounded luxury-image-shadow h-100 imageReveal"
+                alt=""
+              />
+            </div>
+
+            <div class="col-lg-6 autoShowRight">
+              <div class="luxury-feature mb-4">
+                <h5 class="fw-bold">Neon Arsenal Customization</h5>
+                <p class="text-white-50 mb-0">
+                  Unlock next-gen weapon skins infused with vibrant neon energy.
+                  Personalize your loadout with futuristic designs that dominate
+                  both the battlefield and the spotlight.
+                </p>
+              </div>
+
+              <div class="luxury-feature mb-4">
+                <h5 class="fw-bold">Advanced Tactical Firepower</h5>
+                <p class="text-white-50 mb-0">
+                  Experience precision-engineered weapons built for speed,
+                  power, and control. Upgrade attachments, enhance stability,
+                  and adapt your gear to match your combat style.
+                </p>
+              </div>
+
+              <div class="luxury-feature mb-4">
+                <h5 class="fw-bold">Cyberpunk Combat Mode</h5>
+                <p class="text-white-50 mb-0">
+                  Step into a high-tech battlefield where glowing energy cores
+                  and futuristic tech redefine modern warfare. Every match feels
+                  cinematic, intense, and visually explosive.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="table-group-divider py-2 my-3 my-md-5"></div>
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+              <img
+                src="Images/epic-gamer-room-setup.jpg"
+                class="img-fluid rounded luxury-image-shadow h-100 imageReveal"
+                alt=""
+              />
+            </div>
+
+            <div class="col-lg-6 autoShowLeft">
+              <div class="luxury-feature mb-4">
+                <h5 class="fw-bold">Immersive RGB Battle Station</h5>
+                <p class="text-white-50 mb-0">
+                  Surround yourself with dynamic lighting and cinematic visuals.
+                  Dual displays, reactive RGB accents, and precision sound
+                  create a fully immersive gaming atmosphere.
+                </p>
+              </div>
+
+              <div class="luxury-feature mb-4">
+                <h5 class="fw-bold">Pro-Level Streaming Setup</h5>
+                <p class="text-white-50 mb-0">
+                  Built for creators and competitors alike. Capture every moment
+                  in high definition, engage your audience in real time, and
+                  stream with studio-grade clarity.
+                </p>
+              </div>
+
+              <div class="luxury-feature mb-4">
+                <h5 class="fw-bold">Performance-Optimized Workspace</h5>
+                <p class="text-white-50 mb-0">
+                  Engineered for long sessions and peak focus. Ergonomic design,
+                  seamless multi-screen control, and powerful hardware keep you
+                  locked in and ahead of the game.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta-travel d-flex align-items-center text-center mt-3">
+        <div class="container text-white imageReveal p-0">
+          <h2 class="fw-bold mb-3 text-capitalize">
+            connect with other gamers
+          </h2>
+          <p class="mb-4">Gaming experienced like never before.</p>
+          <a href="#" class="btn btn-primary-custom btn-lg px-4">Join Now!</a>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="faq-premium py-3 my-3 my-lg-5 text-white">
+        <div class="container">
+          <div class="row g-5 align-items-start">
+            <!-- Left Intro Column -->
+            <div class="col-lg-4 autoShowRight">
+              <div class="faq-intro pe-lg-4">
+                <h2 class="fw-bold mb-3 faq-shadow-text text-info">
+                  Everything You Need to Know
+                </h2>
+                <p class="text-info-emphasis mb-4 faq-shadow-text">
+                  We've answered the most common questions below. Still need
+                  help? Reach out anytime.
+                </p>
+                <a href="#" class="btn btn-outline-light btn-lift"
+                  >Contact Us</a
+                >
+              </div>
+            </div>
+
+            <!-- Right FAQ Column -->
+            <div class="col-lg-8 autoShowLeft">
+              <div
+                class="faq-shadow-bg accordion faq-border-start"
+                id="faqPremium"
+              >
+                <div class="accordion-item border-0 border-bottom">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#p1"
+                    >
+                      How long does setup take?
+                    </button>
+                  </h2>
+                  <div
+                    id="p1"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqPremium"
+                  >
+                    <div class="accordion-body">
+                      Setup takes less than 5 minutes. No technical knowledge
+                      required.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item border-0 border-bottom">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#p2"
+                    >
+                      Is there a contract required?
+                    </button>
+                  </h2>
+                  <div
+                    id="p2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqPremium"
+                  >
+                    <div class="accordion-body">
+                      No contracts. You can cancel anytime without penalties.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item border-0 border-bottom">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#p3"
+                    >
+                      What payment options are available?
+                    </button>
+                  </h2>
+                  <div
+                    id="p3"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqPremium"
+                  >
+                    <div class="accordion-body">
+                      We accept all major credit cards and secure online
+                      payments.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item border-0 border-bottom">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#p4"
+                    >
+                      Is customer support included?
+                    </button>
+                  </h2>
+                  <div
+                    id="p4"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqPremium"
+                  >
+                    <div class="accordion-body">
+                      Yes. All plans include 24/7 priority support.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item border-0">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#p5"
+                    >
+                      Can I upgrade or downgrade my plan?
+                    </button>
+                  </h2>
+                  <div
+                    id="p5"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqPremium"
+                  >
+                    <div class="accordion-body">
+                      Absolutely. You can change your plan at any time from your
+                      dashboard.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark footer-bg text-light pt-5">
+      <div class="container">
+        <div class="row text-center text-md-start">
+          <!-- Brand -->
+          <div class="col-12 col-lg-4 mb-4">
+            <a class="navbar-brand fs-3 fw-bold py-1" href="#"
+              ><span class="text-warning fw-bolder">ALT</span
+              ><span class="text-primary fw-bold fst-italic">Gamers</span></a
+            >
+
+            <p class="small text-secondary">
+              Empowering businesses through modern web solutions and scalable
+              design systems.
+            </p>
+
+            <!-- Social -->
+            <nav aria-label="Social media">
+              <ul class="list-inline mt-3 mb-0">
+                <li class="list-inline-item">
+                  <a href="#" class="text-light text-decoration-none"
+                    >Facebook</a
+                  >
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="text-light text-decoration-none"
+                    >Twitter</a
+                  >
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="text-light text-decoration-none"
+                    >LinkedIn</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- Product -->
+          <div class="col-12 col-md-3 col-lg-2 mb-4">
+            <h6 class="text-uppercase fw-bold mb-3">Product</h6>
+            <nav aria-label="Product links">
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#" class="text-light text-decoration-none"
+                    >Features</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-light text-decoration-none"
+                    >Pricing</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-light text-decoration-none"
+                    >Integrations</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-light text-decoration-none"
+                    >Updates</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- Company -->
+          <div class="col-12 col-md-3 col-lg-2 mb-4">
+            <h6 class="text-uppercase fw-bold mb-3">Company</h6>
+            <nav aria-label="Company links">
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#" class="text-light text-decoration-none">About</a>
+                </li>
+                <li>
+                  <a href="#" class="text-light text-decoration-none"
+                    >Careers</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-light text-decoration-none">Press</a>
+                </li>
+                <li>
+                  <a href="#" class="text-light text-decoration-none"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- Newsletter -->
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <h6 class="text-uppercase fw-bold mb-3">Subscribe</h6>
+            <p class="small text-secondary">
+              Get the latest updates delivered to your inbox.
+            </p>
+            <form>
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email address"
+                  aria-label="Email address"
+                />
+                <button class="btn btn-primary" type="submit">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <hr class="border-secondary" />
+
+        <div class="row pb-4 text-center text-md-start">
+          <div class="col-md-6 small text-secondary mb-2 mb-md-0">
+            © 2026 Your Company Name. All rights reserved.
+          </div>
+          <div class="col-md-6">
+            <nav aria-label="Legal links">
+              <ul
+                class="list-inline small mb-0 justify-content-center justify-content-md-end d-flex"
+              >
+                <li class="list-inline-item">
+                  <a href="#" class="text-secondary text-decoration-none"
+                    >Privacy</a
+                  >
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="text-secondary text-decoration-none"
+                    >Terms</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
