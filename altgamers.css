@@ -1,5 +1,5 @@
 /* --------------- RESET --------------- */
-body {
+body,html {
   background-color: #0b0b0b;
   overflow-x: hidden;
 }
@@ -421,3 +421,4 @@ body {
   background: linear-gradient(180deg, #0b0f1a 0%, #070a12 50%, #000000 100%);
   color: #ffffff;
 }
+
